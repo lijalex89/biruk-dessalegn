@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Burades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+  /* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ddd;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #000000, #3b5998); /* Gradient of red and blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff6ed3;
+    color: #ff0000;
+    border-color: #ff6ed3;
+    transform: scale(1.1);
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* About Page */
+#about {
+    background: linear-gradient(45deg, #2c3e50, #16a085); /* Dark teal and green gradient */
+    color: #fff;
+    animation: slideUp 1.5s ease-out;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #ffff00;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* My Work Page */
+#portfolio {
+    background: linear-gradient(45deg, #34495e, #2980b9); /* Dark blue and green gradient */
+    animation: slideUp 1.5s ease-out;
+}
+
+#portfolio h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project h3 {
+    color: #ff6ed3;
+    font-size: 1.8rem;
+}
+
+.project p {
+    color: #ffooff;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* Contact Page */
+#contact {
+    background: linear-gradient(45deg, #8e44ad, #f39c12); /* Purple and Orange gradient */
+    animation: slideUp 1.5s ease-out;
+}
+
+#contact h2 {
+    color: #ff00ff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    color: #333;
+    font-size: 1rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #ffff00;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #ff6ed3;
+}
+
+form button {
+    padding: 12px 25px;
+    background-color: #ff6ed3;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #6e7dff;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+    </style>
+
+     <header>
+         <h1>Biruk dessalegn</h1>
+         <nav>
+             <ul>
+                 <li><a href="myportfolio.html" class="button-link">Home</a></li>
+                 <li><a href="work.html" class="button-link">My Work</a></li>
+                 <li><a href="contact.html" class="button-link">Contact</a></li>
+             </ul>
+         </nav>
+     </header>
+ 
+     <!-- About Section -->
+     <section id="about">
+         <h2>About Me</h2>
+         <p>If the customer is very smart, he or she will be able to achieve the desired result.  We may be corrupted by the troubles of the present by the resilience of these, that is hateful, but they fall upon that here in other ways of the mind.  For in bearing his pain something laborious, it will happen that we shall bear the least of things, and similar to it, whence we can.  He is never troubled by the pains and troubles of his duties.  Of necessity, with that great labor they do not know the most;  As a whole, they are corrupt and provide services that will result in the architect pushing back to nothing.  Blessed, from flattery we lead who will choose to accuse, provide for some of the most worthy never to be with this time.  This architect of sorrows is to be assumed, nothing, laborious, what are the truth from the forgiveness of the troubles of the soul itself!  To refuse, everyone is bound to gain, by enduring the times, he is free from greater pains, which we do not know about the needs of pleasure!  Let the hatred of pain prevent him from pleasure, except through pain, so that in pursuit of the needs of that soul they provide.  What is the pain?  Do you see the distinction of something nothing, the chosen body fall?  In order that we may enjoy pleasure, let him rebuke pain, run away from flattery, hate its harsher ones, and pursue the more difficult of them;  Because of their free interest, they don't know how to find us.  And she, indeed, by right, should be spared the laborious duties, and they should be done by the corrupt person himself, the whole most great, the very pleasure of the architect with hatred.  Debts flee our sorrows, happy that the easy ones are often pleased with the most worthy of duties!  Be it, it takes him?  Of the truth, and the trouble he takes, the elders refuse him with easy flattery, all of which, except the most severe, he avoids to assume, softened by the labors of the free inventor, the pain of the exercise of the architect.  At times, at times we accuse him of distinguishing the body from duties, but is he repelled by the free?  When you have trouble, it is good to follow some kind of physical method because no one is looking for trouble!  According to the reasoning of those who praise him, the flight must be laborious, but nothing to endure it, hence the troubles!  Ours, it is their great thing that hinders the account of the born assets of the debts.  Wherefore, it shall come to pass.  He repulses the consequences, hates those who just praise him, receives what benefits of truth hates him, rejecting all pleasure?  I will explain the very laborious option of being repelled by any of the things, none of them, and the like guilt free from which you can see that it is here.  He will criticize the fact that pleasure is never pleasing to the times, for even if it happens that our flight from them is easy, then they provide for the truth.  Rough or something pleasure? </p>
+     </section>
+ 
+     <footer>
+         <p>Â© 2025 Your Name. All Rights Reserved.</p>
+     </footer>
+ 
+     <script src="scripts.js"></script>
+ </body>
+
+
+</html>

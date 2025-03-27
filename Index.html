@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burades's - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+   /* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0e0f15, #ff6ed3); /* Dynamic gradient background */
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background: #1e1d1d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navigation Links as Buttons */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff6ed3;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #6e7dff;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Page Introduction */
+.home-intro {
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.home-intro h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.home-intro p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animations */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .home-intro h2 {
+        font-size: 2rem;
+    }
+
+    .home-intro p {
+        font-size: 1rem;
+    }
+}
+
+
+
+    </style>
+  
+
+
+ 
+      <header>
+          <h1>Burades's Portfolio</h1>
+          <nav>
+              <ul>
+                  <!-- Link to About Page -->
+                  <li><a href="about.html" class="button-link">About Me</a></li>
+                  <!-- Link to My Work Page -->
+                  <li><a href="work.html" class="button-link">My Work</a></li>
+                  <!-- Link to Contact Page -->
+                  <li><a href="contact.html" class="button-link">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+  
+      <!-- Home Page Intro -->
+      <section id="home" class="home-intro">
+          <h2>Wanna know some back stories of me?</h2>
+          <p> Hello, my name is Biruk, And. Please tell me a little about my past life stories. I was born in 2000 in a city known as Debre Tabor. When I was 2 years old, I went to a city known as Gondar to start a new life with my family. I stayed in Gondar until I was 8 years old.  I going to live with my aunt for 2 years and after 2 years I returned to Gondar city and then I live in Gondar city from the age of 10 to 15 but at some point a heavy war broke out so I was surrounded by bullets and heavy weapons and stayed for 1 year but the war could not end so we came to Addis Ababa without wanting to and I am now learning my education. This is what life looks like.  Thank you for following my story. </p>
+      </section>
+  
+      <footer>
+          <p>Â© 2025 Your Name. All Rights Reserved.</p>
+      </footer>
+  
+      <script src="scripts.js"></script>
+  
+
+</body>
+
+</html>
